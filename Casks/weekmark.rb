@@ -4,7 +4,7 @@ cask "weekmark" do
 
   url "https://github.com/rockykusuma/weekmark/releases/download/v#{version}/Weekmark-#{version}.dmg"
   name "Weekmark"
-  desc "Calendar week widget and CW lookup for macOS"
+  desc "Desktop widget for the current calendar week, with a CW lookup"
   homepage "https://rockykusuma.github.io/weekmark/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "weekmark" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Weekmark.app"
 
