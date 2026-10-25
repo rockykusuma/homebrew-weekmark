@@ -1,6 +1,6 @@
 cask "weekmark" do
-  version "1.1"
-  sha256 "e7a35cb31d15f58a529177952d2a3b4814ac430131827939519607008c73a2b3"
+  version "1.2"
+  sha256 "67fcf840799221313418142b97368843b0070019186f231dc774629a8b78bfe9"
 
   url "https://github.com/rockykusuma/weekmark/releases/download/v#{version}/Weekmark-#{version}.dmg"
   name "Weekmark"
